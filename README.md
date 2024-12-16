@@ -1,6 +1,6 @@
 # Essential JS 2 for React - Fitness-tracker
 
-This demo demonstrates a dashboard that contains a user's health tracking details, primarily about the user's daily activities, diet plan, and fasting details. The demo was built primarily in angular with syncfusion angular components.
+This demo demonstrates a dashboard that contains a user's health tracking details, primarily about the user's daily activities, diet plan, and fasting details. The demo was built primarily in react with syncfusion react components.
 
 ## Run the application
 

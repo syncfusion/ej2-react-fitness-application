@@ -4,8 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    //publicPath: "http://localhost:8052/",
-    publicPath: "https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app-profile/",
+    publicPath: "http://localhost:8052/",
   },
 
   resolve: {

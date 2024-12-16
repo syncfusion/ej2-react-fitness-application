@@ -4,8 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    //publicPath: "http://localhost:8053/",
-    publicPath: "https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app-diet/",
+    publicPath: "http://localhost:8053/",
   },
 
   resolve: {
@@ -45,8 +44,7 @@ module.exports = {
       name: "Diet",
       filename: "remoteEntry.js",
       remotes: {
-        //Profile:'Profile@http://localhost:8052/remoteEntry.js'
-        Profile:'Profile@https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app-profile/remoteEntry.js'
+        Profile:'Profile@http://localhost:8052/remoteEntry.js'
       },
       exposes: {
         './Diet':'./src/Diet'

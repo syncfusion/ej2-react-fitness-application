@@ -6,8 +6,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/fitness-tracker-app'),
-    //publicPath: "http://localhost:8050/",
-    publicPath: "https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app/",
+    publicPath: "http://localhost:8050/",
   },
 
   resolve: {
@@ -51,15 +50,10 @@ module.exports = {
       name: "Host",
       filename: "remoteEntry.js",
       remotes: {
-        // Activities: 'Activities@http://localhost:8051/remoteEntry.js',
-        // Profile: 'Profile@http://localhost:8052/remoteEntry.js',
-        // Diet: 'Diet@http://localhost:8053/remoteEntry.js',
-        // Fasting: 'Fasting@http://localhost:8054/remoteEntry.js'
-
-        Activities: 'Activities@https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app-activities/remoteEntry.js',
-        Profile: 'Profile@https://npmci.syncfusion.com/development/showcase/react/fitnessapp/fitness-tracker-app-profile/remoteEntry.js',
-        Diet: 'Diet@https://npmci.syncfusion.comm/development/showcase/react/fitnessapp/fitness-tracker-app-diet/remoteEntry.js',
-        Fasting: 'Fasting@https://npmci.syncfusion.comm/development/showcase/react/fitnessapp/fitness-tracker-app-fasting/remoteEntry.js'
+        Activities: 'Activities@http://localhost:8051/remoteEntry.js',
+        Profile: 'Profile@http://localhost:8052/remoteEntry.js',
+        Diet: 'Diet@http://localhost:8053/remoteEntry.js',
+        Fasting: 'Fasting@http://localhost:8054/remoteEntry.js'
       },
       exposes: {},
       shared: {
